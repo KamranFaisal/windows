@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('img1.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.taskbar {
+    width: 100%;
+    background-color: #101f60;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.startmenu {
+    position: absolute;
+    bottom: -710px;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+
+.startmenu img {
+    border-radius: 8px;
+}
+
+.icon {
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 62px;
+    font-size: 19px;
+    color: white;
+}
+
+.icon :hover {
+    cursor: progress;
+}
